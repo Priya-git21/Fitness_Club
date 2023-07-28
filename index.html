@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Club</title>
+
+    <!-- font-family: Light 300 Italic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+</head>
+
+<body>
+    <header class="nav">
+        <nav id="left">
+            <img src="./images/logo.jpg" alt="logo" class="logo" />
+        </nav>
+        <nav id="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Try Out</a></li>
+                <li><a href="#">Timetable</a></li>
+                <li><a href="#">Fee Structure</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+
+
+        <nav id="right">
+            <input type="text" placeholder="Search Here" class="search" />
+            <ul class="button">
+                <li>
+                    <button class="btn border"><a
+                            href="https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp"
+                            target="_blank">Sign Up</a></button>
+                </li>
+                <li>
+                    <button class="btn border"><a
+                            href="https://accounts.google.com/v3/signin/identifier?dsh=S-1878556242%3A1670690701539464&continue=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&followup=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh7b8o57eoq7lTVgqVaon47e-00UD49Ec63us5vhcAR64uIMbAlYu6pIVEufqDZ22YF5fXRkhA"
+                            target="_blank">Log In</a></button>
+                </li>
+                <li>
+                    <button class="btn border"><a href="#" class="disabled">Call
+                            Us</a></button>
+                </li>
+                <li>
+                    <button class="btn border">
+                        <a href="#" class="disabled">Email Us</a>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="">
+        <div class="container">
+            <h1>Join the Club now...</h1>
+
+            <label for="Name">Name:</label>
+            <div class="from">
+                <input type="text" class="input" name="MyName" id="Name" placeholder=" Your Name" />
+            </div>
+
+            <label for="Age">Age:</label>
+            <div class="from">
+                <input type="number" class="input" name="Age" id="Age" placeholder=" Your Age" />
+            </div>
+
+            <label for="Mobile">Mobile Number:</label>
+            <div class="from">
+                <input type="number" class="input" name="Mobile" id="Mobile" placeholder=" Your Mobile" />
+            </div>
+
+            Gender:
+            <div class="from">
+                <label for="Male">Male:</label><input type="radio" name="Gender" id="Male" placeholder="" />
+                <label for="Female">Female:</label><input type="radio" name="Gender" id="Female" placeholder="" />
+                <label for="Others">Others:</label><input type="radio" name="Gender" id="Others" placeholder="" />
+            </div>
+
+            <label for="Timings">Timings:</label>
+            <div class="from">
+                <select name="Timings" id="Timings">
+                    <option value="6 am">6 am</option>
+                    <option value="8 am">8 am</option>
+                    <option value="5 pm">5 pm</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="submit border">
+            </div>
+    </form>
+</body>
+
+</html>
